@@ -22,6 +22,8 @@
 #endif
 
 #include <event.h>
+#include <event_struct.h>
+#include <event_compat.h>
 
 #ifdef _MSC_VER
 #include <event2/event_compat.h> // @manual
